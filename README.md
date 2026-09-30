@@ -2,6 +2,8 @@
 This repo contains fixed .exe file for the game called "Legie"
 
 ////////////////////////////////////////////////
+
+
 I went through a lot of assembly code, which I do not fully understand just to get it running.
 With a bit of help from AI, which I don't really like to use, I was able to change some variables inside this file so the game now runs at 1920x1080 resolution.
 
@@ -11,6 +13,8 @@ even if the game is being displayed in 1920x1080 it still works in 1024x768, but
 Real breakthrough came once I read some comment on steam, that .ini file has a "scale factor" as setting which I obviously missed while checking this file before
 but as it turned out, it wasn't a factor or multiplier, this "scale=2" parameter is kind of a preset of game resolution, so the only workaround I found is to simply
 use different resolution when preset is set as 2.
+
+
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 HOW TO MAKE IT WORKING:
